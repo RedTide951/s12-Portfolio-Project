@@ -1,0 +1,3 @@
+setup Tailwind
+setup daisyUI
+use router to wrap app
