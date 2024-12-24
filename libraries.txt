@@ -1,0 +1,4 @@
+axios
+cypress
+react router
+toastify
