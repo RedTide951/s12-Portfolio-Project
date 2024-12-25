@@ -22,7 +22,7 @@
   justify-content: flex-end;
   align-items: center;
   font-size: large;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
   border: none;
 }
 
@@ -37,5 +37,11 @@
   justify-content: flex-end;
   align-items: center;
   font-size: large;
-  padding: 1rem 2rem;
+  padding: 0 2rem;
+  color: var(--primary-color);
+}
+
+.nav-bar .right-divison .nav-button:hover {
+  color: #ffffff;
+  background-color: var(--primary-color);
 }

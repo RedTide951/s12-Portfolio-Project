@@ -2,3 +2,4 @@ axios
 cypress
 react router
 toastify
+font-awesome

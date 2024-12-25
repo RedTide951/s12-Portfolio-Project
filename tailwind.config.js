@@ -8,8 +8,15 @@ export default {
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
-      "light", // Built-in theme
+      {
+        light: {
+          ...require("daisyui/src/theming/themes")["light"],
+          primary: "#3730a2",
+          secondary: "#7c808d",
+        },
+      },
       "dark",
+      "cupcake",
     ],
   },
 };

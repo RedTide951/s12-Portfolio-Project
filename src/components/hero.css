@@ -1,0 +1,65 @@
+.hero-container {
+  padding: 1rem 3vw;
+}
+
+.div-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: var(--primary-color);
+  margin-right: 10px;
+  max-width: 80px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.title {
+  font-family: "Inter";
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  padding: 1rem 0;
+}
+
+.description {
+  font-family: "Inter";
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem 0;
+  color: var(--secondary-color);
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.button-container .buttons {
+  margin: 1.2rem 0;
+  padding: 0 1.6rem;
+  font-size: large;
+}
+
+.button-container .secondary:hover {
+  color: black;
+  background-color: inherit;
+}
+
+.image {
+  border-radius: 20px;
+}

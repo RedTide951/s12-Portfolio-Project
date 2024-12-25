@@ -2,5 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 .App {
-  margin: 0 4rem;
+  margin: 0 6vw;
+}
+
+:root {
+  --primary-color: #3730a2;
+  --secondary-color: #7c808d;
 }
