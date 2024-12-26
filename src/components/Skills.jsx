@@ -35,7 +35,6 @@ export class Skills extends Component {
             </p>
           </div>
         </div>
-        <div className="divider"></div>
       </div>
     );
   }

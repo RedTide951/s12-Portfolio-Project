@@ -14,7 +14,9 @@ function App() {
       <NavBar />
       <Hero />
       <Skills />
+      <div className="divider"></div>
       <Profile />
+      <div className="divider"></div>
       <Projects />
       <Footer />
     </main>
