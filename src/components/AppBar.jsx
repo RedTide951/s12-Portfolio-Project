@@ -15,12 +15,12 @@ const AppBar = () => {
           type="checkbox"
           data-toggle-theme="light,dark"
           data-act-class="ACTIVECLASS"
-          className="toggle theme-controller theme-button"
+          className="toggle theme-controller theme-button bg-primary"
         />
         <p>DARK MODE</p>
         <div>|</div>
         <p>
-          <span className="accenture">TÜRKÇE</span>'YE GEÇ
+          <span className="text-primary">TÜRKÇE</span>'YE GEÇ
         </p>
       </div>
     </div>

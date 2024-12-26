@@ -7,8 +7,8 @@ export class Skills extends Component {
       <div className="skills-container">
         <h2 className="heading">Skills</h2>
         <div className="skills-row">
-          <div className="card">
-            <h3 className="subheading">JavaScript</h3>
+          <div className="bg-base-100">
+            <h3 className="subheading text-primary">JavaScript</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
               magnam officiis commodi, ipsa, sequi rem consectetur veritatis a
@@ -16,8 +16,8 @@ export class Skills extends Component {
               eaque aut. Ad, repellat.
             </p>
           </div>
-          <div className="card">
-            <h3 className="subheading">React</h3>
+          <div className="bg-base-100">
+            <h3 className="subheading text-primary">JavaScript</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
               magnam officiis commodi, ipsa, sequi rem consectetur veritatis a
@@ -25,8 +25,8 @@ export class Skills extends Component {
               eaque aut. Ad, repellat.
             </p>
           </div>
-          <div className="card">
-            <h3 className="subheading">Node.js</h3>
+          <div className="bg-base-100">
+            <h3 className="subheading text-primary">JavaScript</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
               magnam officiis commodi, ipsa, sequi rem consectetur veritatis a

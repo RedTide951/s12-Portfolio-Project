@@ -8,7 +8,7 @@ export class Profile extends Component {
         <h2 className="heading">Profile</h2>
         <div className="profile-container">
           <div className="stats-container">
-            <h3 className="subheading">Profiel</h3>
+            <h3 className="subheading text-primary">Profile</h3>
             <div className="overflow-x-auto">
               <table className="table">
                 <tbody>
@@ -36,7 +36,7 @@ export class Profile extends Component {
             </div>
           </div>
           <div className="about-me-container">
-            <h3 className="subheading">About Me</h3>
+            <h3 className="subheading text-primary">About Me</h3>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. In,
               animi at. Explicabo labore tenetur quam quo quia ratione culpa

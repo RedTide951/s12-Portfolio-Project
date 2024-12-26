@@ -5,7 +5,16 @@
   margin-bottom: 5rem;
 }
 
+.card-custom-body {
+  gap: 1rem !important;
+  padding: 2rem 1rem;
+}
+
 .card:hover {
+  cursor: default;
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
   cursor: default;
 }
 
@@ -16,11 +25,5 @@
 }
 
 .links-container a:hover {
-  color: var(--primary-color);
   transition: all 0.1s ease;
-}
-
-.card-body {
-  gap: 1rem;
-  padding: 2rem 1rem;
 }

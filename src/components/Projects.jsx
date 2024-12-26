@@ -7,15 +7,15 @@ export class Projects extends Component {
       <div className="wrapper">
         <h2 className="heading">Projects</h2>
         <div className="projects-container">
-          <div className="card bg-base-100 w-96 shadow-xl">
+          <div className="card bg-base-100 w-96 shadow-xl ">
             <figure>
               <img
                 src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
                 alt="Shoes"
               />
             </figure>
-            <div className="card-body">
-              <h2 className="card-title">
+            <div className="card-body card-custom-body">
+              <h2 className="card-title text-primary">
                 Teknolojik Yemekler
                 <div className="badge badge-secondary">NEW</div>
               </h2>
@@ -29,12 +29,12 @@ export class Projects extends Component {
                 <div className="badge badge-outline">Formik</div>
               </div>
               <div className="links-container">
-                <a className="link">Github</a>
-                <a className="link">View site</a>
+                <a className="link hover:text-primary">Github</a>
+                <a className="link hover:text-primary">View site</a>
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-xl">
+          <div className="card bg-base-100 w-96 shadow-xl ">
             <figure>
               <img
                 src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -42,7 +42,7 @@ export class Projects extends Component {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">
+              <h2 className="card-title text-primary">
                 Teknolojik Yemekler
                 <div className="badge badge-secondary">NEW</div>
               </h2>
@@ -56,12 +56,12 @@ export class Projects extends Component {
                 <div className="badge badge-outline">Formik</div>
               </div>
               <div className="links-container">
-                <a className="link">Github</a>
-                <a className="link">View site</a>
+                <a className="link hover:text-primary">Github</a>
+                <a className="link hover:text-primary">View site</a>
               </div>
             </div>
           </div>
-          <div className="card bg-base-100 w-96 shadow-xl">
+          <div className="card bg-base-100 w-96 shadow-xl ">
             <figure>
               <img
                 src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -69,7 +69,7 @@ export class Projects extends Component {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">
+              <h2 className="card-title text-primary">
                 Teknolojik Yemekler
                 <div className="badge badge-secondary">NEW</div>
               </h2>
@@ -83,8 +83,8 @@ export class Projects extends Component {
                 <div className="badge badge-outline">Formik</div>
               </div>
               <div className="links-container">
-                <a className="link">Github</a>
-                <a className="link">View site</a>
+                <a className="link hover:text-primary">Github</a>
+                <a className="link hover:text-primary">View site</a>
               </div>
             </div>
           </div>

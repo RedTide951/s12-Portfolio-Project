@@ -1,5 +1,4 @@
 .footer-container {
-  background-color: #f9f9f9;
   padding: 3rem 12vw;
 }
 
@@ -24,12 +23,12 @@
 }
 
 .email:hover {
-  color: var(--primary-color);
   transition: all 0.1s ease;
   cursor: pointer;
 }
 
-.link {
+.linkcustom {
   font-size: 1.1rem;
   text-decoration: none;
+  cursor: pointer;
 }

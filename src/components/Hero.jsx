@@ -6,8 +6,8 @@ export class Hero extends Component {
     return (
       <div className="hero-container">
         <div className="name-container">
-          <span className="line"></span>
-          <span className="name">Almila Su</span>
+          <span className="line bg-primary"></span>
+          <span className="name text-primary">Almila Su</span>
         </div>
         <div className="div-wrapper">
           <div className="left-div">
@@ -15,7 +15,7 @@ export class Hero extends Component {
               Creative thinker
               <br /> Minimalism lover
             </h1>
-            <p className="description">
+            <p className="description text-neutral">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
               unde accusamus quis voluptatum dolor a, dicta pariatur commodi
               suscipit ipsam odio? Ipsum, eveniet mollitia aliquam blanditiis
