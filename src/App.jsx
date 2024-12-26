@@ -9,17 +9,19 @@ import "./App.css";
 
 function App() {
   return (
-    <main className="App">
-      <AppBar />
-      <NavBar />
-      <Hero />
-      <Skills />
-      <div className="divider"></div>
-      <Profile />
-      <div className="divider"></div>
-      <Projects />
+    <>
+      <main className="App">
+        <AppBar />
+        <NavBar />
+        <Hero />
+        <Skills />
+        <div className="divider"></div>
+        <Profile />
+        <div className="divider"></div>
+        <Projects />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
 

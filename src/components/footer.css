@@ -1,0 +1,35 @@
+.footer-container {
+  background-color: #f9f9f9;
+  padding: 3rem 12vw;
+}
+
+.footer-heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: "inter", sans-serif;
+  line-height: 3rem;
+}
+
+.contacts-container {
+  margin: 3rem 0 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.email {
+  text-decoration: underline;
+  font-size: 1.1rem;
+}
+
+.email:hover {
+  color: var(--primary-color);
+  transition: all 0.1s ease;
+  cursor: pointer;
+}
+
+.link {
+  font-size: 1.1rem;
+  text-decoration: none;
+}
