@@ -3,3 +3,6 @@ cypress
 react router
 toastify
 font-awesome
+tailwindcss
+daisyUI
+daisyTypograpghy

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .App {
-  margin: 0 6vw;
+  margin: 0 12vw;
 }
 
 :root {
