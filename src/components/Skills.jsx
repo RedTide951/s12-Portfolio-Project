@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./skills.css";
 
+// this line
+
 export class Skills extends Component {
   render() {
     return (
