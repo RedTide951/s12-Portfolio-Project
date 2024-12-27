@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./skills.css";
 
-// this line
+// this is a line
 
 export class Skills extends Component {
   render() {
