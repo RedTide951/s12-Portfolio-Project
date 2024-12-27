@@ -2,6 +2,12 @@
   padding: 3rem 12vw;
 }
 
+@media (max-width: 1024px) {
+  .footer-container {
+    padding: 3rem 6vw;
+  }
+}
+
 .footer-heading {
   font-size: 2.2rem;
   font-weight: 600;
@@ -28,7 +34,7 @@
 }
 
 .linkcustom {
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-decoration: none;
   cursor: pointer;
 }

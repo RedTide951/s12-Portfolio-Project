@@ -17,10 +17,10 @@ const AppBar = () => {
           data-act-class="ACTIVECLASS"
           className="toggle theme-controller theme-button bg-primary"
         />
-        <p>DARK MODE</p>
+        <p className="lg:text-sm md:text-sm">DARK MODE</p>
         <div>|</div>
-        <p>
-          <span className="text-primary">TÜRKÇE</span>'YE GEÇ
+        <p className="lg:text-sm md:text-sm">
+          <span className="text-primary ">TÜRKÇE</span>'YE GEÇ
         </p>
       </div>
     </div>

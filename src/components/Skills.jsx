@@ -10,7 +10,7 @@ export class Skills extends Component {
         <h2 className="heading">Skills</h2>
         <div className="skills-row">
           <div className="bg-base-100">
-            <h3 className="subheading text-primary">JavaScript</h3>
+            <h3 className="subheading text-primary ">JavaScript</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
               magnam officiis commodi, ipsa, sequi rem consectetur veritatis a

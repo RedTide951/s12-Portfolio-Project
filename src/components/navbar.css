@@ -15,7 +15,6 @@
   gap: 1rem;
   padding: 0 1rem;
 }
-
 .nav-bar .right-divison .nav-link {
   display: flex;
   flex-direction: row;
@@ -33,4 +32,15 @@
   align-items: center;
   font-size: large;
   padding: 0 2rem;
+}
+
+@media (max-width: 1024px) {
+  .nav-bar .right-divison .nav-button {
+    padding: 0 1.5rem;
+    font-size: medium;
+  }
+  .nav-bar .right-divison .nav-link {
+    padding: 0 1.5rem;
+    font-size: medium;
+  }
 }
