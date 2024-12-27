@@ -1,11 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { themeChange } from "theme-change";
+import { LanguageContext } from "../contexts/LanguageContext";
 import "./appbar.css";
 
 const AppBar = () => {
   useEffect(() => {
     themeChange(false);
   }, []);
+
+  const { text, switchLanguage } = useContext(LanguageContext);
 
   return (
     <div className="app-bar">
@@ -20,7 +23,8 @@ const AppBar = () => {
         <p className="lg:text-sm md:text-sm">DARK MODE</p>
         <div>|</div>
         <p className="lg:text-sm md:text-sm">
-          <span className="text-primary ">TÜRKÇE</span>'YE GEÇ
+          <span className="text-primary ">{text.languageSwitchLabel1}</span>
+          {text.languageSwitchLabel2}
         </p>
       </div>
     </div>

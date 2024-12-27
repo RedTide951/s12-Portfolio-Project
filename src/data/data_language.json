@@ -1,0 +1,39 @@
+{
+  "en": {
+    "mainHeaderOne": "Creative thinker",
+    "mainHeaderTwo": "Minimalism lover",
+    "skills": "Skills",
+    "projects": "Projects",
+    "hireMe": "Hire Me",
+    "languageSwitchLabel1": "Türkçe",
+    "languageSwitchLabel2": "'ye geç",
+    "profile": "Profile",
+    "aboutMe": "About Me",
+    "birthDate": "Birth Date",
+    "birthMonth": "May",
+    "city": "City",
+    "education": "Education",
+    "university": "Anadolu University - Computer Programming",
+    "preferredPosition": "Preferred Position",
+    "footerHeaderLine1": "Let's work together on",
+    "footerHeaderLine2": "your next product.",
+    "personalBlog": "Personal Blog",
+    "heroText": "Hi, I'm Oğuzhan, a passionate and dedicated software/web developer with a strong focus on creating efficient, user-friendly solutions. I’m currently sharpening my skills in full-stack development, combining creativity with technical expertise to build impactful digital experiences. Explore my portfolio to see my projects, skills, and journey toward building innovative software solutions. Let’s create something amazing together!"
+  },
+
+  "tr": {
+    "mainHeaderOne": "Yaratıcı Düşünür Minimalizm Sevdalısı",
+    "mainHeaderTwo": "Minimalist Sevdalısı",
+    "skills": "Yetenekler",
+    "projects": "Projeler",
+    "hireMe": "Beni İşe Alın",
+    "languageSwitch": "Switch to English",
+    "profile": "Profil",
+    "aboutMe": "Hakkımda",
+    "birthDate": "Doğum Tarihi",
+    "city": "Şehir",
+    "education": "Eğitim",
+    "preferredPosition": "Tercih Edilen Pozisyon",
+    "footerHeader": "Bir sonraki projenizde birlikte çalışalım."
+  }
+}
