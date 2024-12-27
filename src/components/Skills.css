@@ -8,7 +8,6 @@
   margin-bottom: 1rem;
   font-family: "inter", sans-serif;
 }
-
 .skills-row {
   display: flex;
   justify-content: space-between;
@@ -20,4 +19,7 @@
   font-weight: 500;
   margin-bottom: 1rem;
   font-family: "inter", sans-serif;
+}
+
+.heading {
 }
