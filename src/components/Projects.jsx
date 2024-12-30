@@ -21,7 +21,7 @@ export const Projects = () => {
       <div className="projects-container flex gap-8 py-4 flex-col md:flex-row">
         {projectData.map((project, index) => (
           <div
-            className="card card-compact bg-base-100 w-96 shadow-xl"
+            className="card card-compact bg-base-100 max-w-fit shadow-xl"
             key={index}
           >
             <figure>

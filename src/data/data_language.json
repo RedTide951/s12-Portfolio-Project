@@ -20,7 +20,8 @@
     "personalBlog": "Personal Blog",
     "heroText": "Hi, I'm Oğuzhan, a passionate and dedicated software/web developer with a strong focus on creating efficient, user-friendly solutions. I’m currently sharpening my skills in full-stack development, combining creativity with technical expertise to build impactful digital experiences. Explore my portfolio to see my projects, skills, and journey toward building innovative software solutions. Let’s create something amazing together!",
     "darkMode": "Dark Mode",
-    "lightMode": "Light Mode"
+    "lightMode": "Light Mode",
+    "abv": "en"
   },
 
   "tr": {
@@ -44,6 +45,7 @@
     "personalBlog": "Kişisel Blog",
     "heroText": "Merhaba, ben Oğuzhan. Verimli ve kullanıcı dostu çözümler oluşturmaya odaklanmış tutkulu ve özverili bir yazılım/web geliştiricisiyim. Şu anda, yaratıcılığı teknik uzmanlıkla birleştirerek etkili dijital deneyimler oluşturmak için full-stack geliştirme becerilerimi geliştiriyorum. Portföyümü inceleyerek projelerimi, becerilerimi ve yenilikçi yazılım çözümleri oluşturma yolculuğumu görebilirsiniz. Haydi birlikte harika bir şey yaratalım!",
     "darkMode": "Karanlık Mod",
-    "lightMode": "Aydınlık Mod"
+    "lightMode": "Aydınlık Mod",
+    "abv": "tr"
   }
 }

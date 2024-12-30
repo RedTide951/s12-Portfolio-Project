@@ -22,6 +22,7 @@ export default {
         dark: {
           ...require("daisyui/src/theming/themes")["dark"],
           neutral: "#7c808d",
+          secondary: "#324153",
         },
       },
     ],

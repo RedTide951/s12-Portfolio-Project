@@ -5,15 +5,22 @@ import Footer from "./components/Footer";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import AppBarMobile from "./components/AppBarMobile";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <main className="App">
-        <AppBar />
+      <div className="">
+        <AppBarMobile />
+      </div>
+      <main className="App mx-4">
+        <div className="hidden md:block">
+          <AppBar />
+        </div>
         <NavBar />
         <Hero />
+        <div className="divider md:hidden"></div>
         <Skills />
         <div className="divider"></div>
         <Profile />

@@ -8,8 +8,10 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="name-container">
-        <span className="line bg-primary"></span>
-        <span className="name text-primary md:text-lg">Oğuzhan Bütüner</span>
+        <span className="line bg-primary hidden md:block"></span>
+        <span className="name text-primary hidden md:block md:text-lg">
+          Oğuzhan Bütüner
+        </span>
       </div>
       <div className="div-wrapper flex-col md:flex-row">
         <div className="left-div">
@@ -17,6 +19,11 @@ const Hero = () => {
             {text.mainHeaderOne}
             <br /> {text.mainHeaderTwo}
           </h1>
+          <img
+            className="rounded-lg shadow-2xl md:hidden"
+            src="https://st2.depositphotos.com/1054848/6896/i/950/depositphotos_68967019-stock-photo-young-woman-in-front-of.jpg"
+            alt=""
+          />
           <p className="description text-neutral md:text-base">
             {text.heroText}
           </p>
@@ -34,7 +41,7 @@ const Hero = () => {
         </div>
         <div className="right-div">
           <img
-            className="rounded-lg shadow-2xl"
+            className="rounded-lg shadow-2xl hidden md:block"
             src="https://st2.depositphotos.com/1054848/6896/i/950/depositphotos_68967019-stock-photo-young-woman-in-front-of.jpg"
             alt=""
           />
