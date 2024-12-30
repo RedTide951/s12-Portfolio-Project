@@ -6,7 +6,7 @@ const AppBarMobile = () => {
   const { text, switchLanguage } = useContext(LanguageContext);
 
   return (
-    <div>
+    <div className="md:hidden">
       <div className="navbar bg-base-100 shadow-xl">
         <div className="left-div flex-1">
           <a className="btn btn-ghost text-xl px-2">

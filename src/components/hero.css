@@ -1,18 +1,8 @@
-.name-container {
-  display: flex;
-  align-items: center;
-}
-
 .line {
   flex: 1;
   height: 1px;
   margin-right: 10px;
   max-width: 80px;
-}
-
-.name {
-  font-size: 1.2rem;
-  font-weight: 600;
 }
 
 .title {
@@ -29,30 +19,7 @@
   padding: 1rem 0;
 }
 
-.button-container {
-  display: flex;
-  gap: 1rem;
-}
-
-.button-container .buttons {
-  margin: 1.2rem 0;
-  padding: 0 1.6rem;
-  font-size: large;
-}
-
 .button-container .secondary:hover {
   color: black;
   background-color: inherit;
-}
-
-@media (max-width: 1024px) {
-  .button-container {
-    display: flex;
-    gap: 0.5rem;
-  }
-  .button-container .buttons {
-    margin: 1rem 0;
-    padding: 0 0.5rem;
-    font-size: medium;
-  }
 }

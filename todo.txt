@@ -1,6 +1,8 @@
 ## Projects
 Api den data geliyor mapleniyor ama isimler ascii, badge datası gelmiyor? Ayar çekileckek.
 
+## Reponsiveness
+Tablet te kaldık, skills den devam
 
 
 

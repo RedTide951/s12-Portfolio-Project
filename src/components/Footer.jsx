@@ -7,7 +7,7 @@ export const Footer = () => {
   const { text } = useContext(LanguageContext);
   return (
     <div className="footer-container bg-base-200">
-      <h2 className="footer-heading">
+      <h2 className="footer-heading text-2xl md:text-6xl">
         {text.footerHeaderLine1}
         <br />
         {text.footerHeaderLine2}
