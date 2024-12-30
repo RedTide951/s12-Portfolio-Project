@@ -5,13 +5,15 @@ import { LanguageContext } from "../contexts/LanguageContext";
 export const Profile = () => {
   const { text } = useContext(LanguageContext);
   return (
-    <div className="wrapper">
+    <div className="wrapper py-2 md:py-8">
       <h2 className="heading">{text.profile}</h2>
-      <div className="profile-container">
+      <div className="profile-container flex-col  md:flex-row">
         <div className="stats-container">
-          <h3 className="subheading text-primary">{text.profile}</h3>
+          <h3 className="subheading text-primary hidden md:block">
+            {text.profile}
+          </h3>
           <div className="overflow-x-auto">
-            <table className="table">
+            <table className="table-sm text-left md:table-md">
               <tbody>
                 {/* row 1 */}
                 <tr>

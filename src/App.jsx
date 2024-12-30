@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import WeatherWidget from "./components/WeatherWidget";
 import "./App.css";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       <main className="App">
         <AppBar />
         <NavBar />
-        <WeatherWidget />
         <Hero />
         <Skills />
         <div className="divider"></div>

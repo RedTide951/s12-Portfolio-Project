@@ -1,1 +1,8 @@
-cardlar maplenecek
+## Projects
+Api den data geliyor mapleniyor ama isimler ascii, badge datası gelmiyor? Ayar çekileckek.
+
+
+
+
+## Debug
+sayfa yenilenince ingilziceye dönüyor

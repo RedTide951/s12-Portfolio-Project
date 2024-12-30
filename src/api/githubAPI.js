@@ -15,13 +15,14 @@ async function fetchSelectedRepos() {
     repos = responses.map((response) => ({
       name: response.data.name,
       description: response.data.description,
-      gitUrl: response.data.git_url,
+      gitUrl: response.data.html_url,
       homepage: response.data.homepage,
     }));
     console.log(repos);
+    return repos;
   } catch (error) {
     console.error("Error fetching repositories:", error);
+    return [];
   }
 }
-
-fetchSelectedRepos();
+export default fetchSelectedRepos;

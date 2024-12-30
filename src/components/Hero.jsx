@@ -9,9 +9,9 @@ const Hero = () => {
     <div className="hero-container">
       <div className="name-container">
         <span className="line bg-primary"></span>
-        <span className="name text-primary">Oğuzhan Bütüner</span>
+        <span className="name text-primary md:text-lg">Oğuzhan Bütüner</span>
       </div>
-      <div className="div-wrapper">
+      <div className="div-wrapper flex-col md:flex-row">
         <div className="left-div">
           <h1 className="title text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
             {text.mainHeaderOne}
@@ -21,11 +21,13 @@ const Hero = () => {
             {text.heroText}
           </p>
           <div className="button-container">
-            <button className="btn btn-primary buttons">{text.hireMe}</button>
-            <button className="btn btn-outline buttons secondary">
+            <button className="btn btn-md btn-primary buttons">
+              {text.hireMe}
+            </button>
+            <button className="btn btn-md btn-outline buttons secondary">
               <i className="fa-brands fa-github"></i>Github
             </button>
-            <button className="btn btn-outline buttons secondary">
+            <button className="btn btn-md btn-outline buttons secondary">
               <i className="fa-brands fa-linkedin"></i>LinkedIn
             </button>
           </div>

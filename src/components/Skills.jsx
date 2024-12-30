@@ -7,9 +7,9 @@ import "./skills.css";
 export const Skills = () => {
   const { text } = useContext(LanguageContext);
   return (
-    <div className="skills-container">
+    <div className="skills-container py-2 md:py-8">
       <h2 className="heading">{text.skills}</h2>
-      <div className="skills-row">
+      <div className="skills-row flex-col md:flex-row">
         <div className="bg-base-100">
           <h3 className="subheading text-primary ">JavaScript</h3>
           <p>
