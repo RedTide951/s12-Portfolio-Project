@@ -28,21 +28,27 @@
         "description": "Single page React app that can utilize APIs to enable customers to place orders online.",
         "gitUrl": "https://github.com/RedTide951/s8-challenge-pizza",
         "homepage": "https://s8-challenge-pizza-six.vercel.app/",
-        "keywords": ["React", "API", "SPA", "Form"]
+        "keywords": ["React", "API", "SPA", "Form"],
+        "imageUrl": "https://i.ibb.co/SPkvt8H/Teknolojikyemeks.png",
+        "imageName": "techmeals"
       },
       {
         "name": "Witflix",
         "description": "Netflix inspired wireframe design focused on delivering a visually appealing interface.",
         "gitUrl": "https://github.com/RedTide951/witflix",
         "homepage": "https://witflix-ecru.vercel.app/",
-        "keywords": ["Wireframe", "SCSS", "Responsive"]
+        "keywords": ["Wireframe", "SCSS", "Responsive"],
+        "imageUrl": "https://i.ibb.co/RPgNQPM/witflix.png",
+        "imageName": "witflix"
       },
       {
         "name": "Retro Snake Game",
         "description": "Classic Snake game built with pure JavaScript, featuring a retro-style design reminiscent of old-school arcade games.",
         "gitUrl": "https://github.com/RedTide951/RT-Snake",
         "homepage": "https://rt-snake.vercel.app/",
-        "keywords": ["JavaScript", "GameDev", "Retro"]
+        "keywords": ["JavaScript", "GameDev", "Retro"],
+        "imageUrl": "https://i.ibb.co/VwxX9kL/snake.png",
+        "imageName": "snake"
       }
     ]
   },
@@ -77,7 +83,8 @@
         "gitUrl": "https://github.com/RedTide951/s8-challenge-pizza",
         "homepage": "https://s8-challenge-pizza-six.vercel.app/",
         "keywords": ["React", "API", "SPA", "Form"],
-        "image": "https://i.ibb.co/SPkvt8H/Teknolojikyemeks.png"
+        "imageUrl": "https://i.ibb.co/SPkvt8H/Teknolojikyemeks.png",
+        "imageName": "techmeals"
       },
       {
         "name": "Witflix",
@@ -85,7 +92,8 @@
         "gitUrl": "https://github.com/RedTide951/witflix",
         "homepage": "https://witflix-ecru.vercel.app/",
         "keywords": ["Wireframe", "SCSS", "Responsive"],
-        "image": "https://i.ibb.co/RPgNQPM/witflix.png"
+        "imageUrl": "https://i.ibb.co/RPgNQPM/witflix.png",
+        "imageName": "witflix"
       },
       {
         "name": "Retro Snake Game",
@@ -93,7 +101,8 @@
         "gitUrl": "https://github.com/RedTide951/RT-Snake",
         "homepage": "https://rt-snake.vercel.app/",
         "keywords": ["JavaScript", "GameDev", "Retro"],
-        "image": "https://i.ibb.co/VwxX9kL/snake.png"
+        "imageUrl": "https://i.ibb.co/VwxX9kL/snake.png",
+        "imageName": "snake"
       }
     ]
   }
