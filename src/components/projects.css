@@ -1,0 +1,8 @@
+.card-effects {
+}
+.card-effects:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}

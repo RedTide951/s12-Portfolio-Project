@@ -1,12 +1,11 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../contexts/LanguageContext";
 import "./footer.css";
-import WeatherWidget from "./WeatherWidget";
 
 export const Footer = () => {
   const { text } = useContext(LanguageContext);
   return (
-    <div className="footer-container bg-base-200 md:mt-2 lg:px-16 lg:py-8 xl:px-24 xl:py-12">
+    <div className="footer-container bg-base-200 md:mt-2 p-4 sm:p-8 lg:p-16 xl:px-24 2xl:px-32">
       <h2 className="footer-heading text-2xl md:text-4xl">
         {text.footerHeaderLine1}
         <br />
