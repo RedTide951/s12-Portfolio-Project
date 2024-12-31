@@ -3,7 +3,7 @@ import "./hero.css";
 import { useAppContext } from "../contexts/AppContext";
 
 const Hero = () => {
-  const { language } = useAppContext();
+  const { text } = useAppContext();
 
   return (
     <section id="hero" className="hero-container mt-8">
@@ -13,8 +13,8 @@ const Hero = () => {
             id="hero-header"
             className="title text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
           >
-            {language.mainHeaderOne}
-            <br className="" /> {language.mainHeaderTwo}
+            {text.mainHeaderOne}
+            <br className="" /> {text.mainHeaderTwo}
           </h1>
           <img
             className="rounded-lg shadow-lg md:hidden"
@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="md:flex md:flex-row md:gap-12 md:py-4">
             <div className="left-div md:flex-1 md:flex md:flex-col md:justify-center md:items-center">
               <p className="description text-neutral text-md py-4 md:text-base lg:text-lg ">
-                {language.heroText}
+                {text.heroText}
               </p>
             </div>
             <div className="right-div md:flex-1 md:flex md:justify-center md:items-center xl:hidden">
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="button-container flex gap-2 md:gap-4 lg:py-4">
             <button className="btn btn-md px-2 md:px-4 lg:px-8 lg:text-lg btn-primary buttons ">
-              {language.hireMe}
+              {text.hireMe}
             </button>
             <button className="btn btn-md px-2 md:px-4 lg:px-6 lg:text-lg btn-outline buttons secondary">
               <i className="fa-brands fa-github"></i>

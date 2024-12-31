@@ -3,7 +3,7 @@ import ThemeToggleButton from "./ThemeToggleButton";
 import { useAppContext } from "../contexts/AppContext";
 
 const AppBarMobile = () => {
-  const { language, switchLanguage } = useAppContext();
+  const { text, switchLanguage } = useAppContext();
 
   return (
     <nav className="md:hidden">
@@ -17,7 +17,7 @@ const AppBarMobile = () => {
           <div className="ic-btns flex justify-center">
             <div className="language">
               <button className="btn btn-ghost btn-sm" onClick={switchLanguage}>
-                <p className="text-md">{language.abv.toUpperCase()}</p>
+                <p className="text-md">{text.abv.toUpperCase()}</p>
               </button>
             </div>
             <div>|</div>

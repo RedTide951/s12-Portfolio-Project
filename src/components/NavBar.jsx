@@ -4,7 +4,7 @@ import { useAppContext } from "../contexts/AppContext";
 import ThemeToggleButton from "./ThemeToggleButton";
 
 export const NavBar = () => {
-  const { language, switchLanguage } = useAppContext();
+  const { text, switchLanguage } = useAppContext();
 
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
@@ -26,7 +26,7 @@ export const NavBar = () => {
           <div className="name-container flex items-center justify-end">
             <span className="line bg-primary block"></span>
             <span className="text-primary font-semibold block lg:text-sm mr-4">
-              {language.title}
+              {text.title}
             </span>
           </div>
         </div>
@@ -34,11 +34,11 @@ export const NavBar = () => {
           <div className="language hidden lg:block">
             <button className="btn btn-ghost btn-xs " onClick={switchLanguage}>
               <p>
-                <span className={language.abv !== "tr" ? "text-primary" : ""}>
-                  {language.languageSwitchLabel1.toUpperCase()}
+                <span className={text.abv !== "tr" ? "text-primary" : ""}>
+                  {text.languageSwitchLabel1.toUpperCase()}
                 </span>
-                <span className={language.abv === "tr" ? "text-primary" : ""}>
-                  {language.languageSwitchLabel2.toUpperCase()}
+                <span className={text.abv === "tr" ? "text-primary" : ""}>
+                  {text.languageSwitchLabel2.toUpperCase()}
                 </span>
               </p>
             </button>
@@ -49,7 +49,7 @@ export const NavBar = () => {
         <div className="language compact block lg:hidden">
           <button className="btn btn-contained " onClick={switchLanguage}>
             <span className="text-primary">
-              {language.abv !== "en" ? "EN" : "TR"}
+              {text.abv !== "en" ? "EN" : "TR"}
             </span>
           </button>
         </div>
@@ -60,22 +60,22 @@ export const NavBar = () => {
           className="btn btn-ghost lg:px-6  border-0 lg:text-lg shadow-none"
           onClick={() => scrollToSection("root")}
         >
-          {language.home}
+          {text.home}
         </button>
         <button
           className="btn btn-ghost lg:px-6  border-0 lg:text-lg shadow-none"
           onClick={() => scrollToSection("skills")}
         >
-          {language.skills}
+          {text.skills}
         </button>
         <button
           className="btn btn-ghost lg:px-6  border-0 lg:text-lg shadow-none"
           onClick={() => scrollToSection("projects")}
         >
-          {language.projects}
+          {text.projects}
         </button>
         <button className="btn btn-primary lg:px-6 lg:text-lg shadow-none">
-          {language.hireMe}
+          {text.hireMe}
         </button>
       </div>
     </nav>

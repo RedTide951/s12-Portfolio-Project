@@ -3,35 +3,35 @@ import "./profile.css";
 import { useAppContext } from "../contexts/AppContext";
 
 export const Profile = () => {
-  const { language } = useAppContext();
+  const { text } = useAppContext();
   return (
     <section className="wrapper py-2 md:py-8">
-      <h2 className="heading">{language.profile}</h2>
+      <h2 className="heading">{text.profile}</h2>
       <div className="profile-container flex flex-col md:flex-row md:gap-4">
         <div className="stats-container flex-1">
           <h3 className="subheading text-primary hidden md:block">
-            {language.profile}
+            {text.profile}
           </h3>
           <div className="overflow-x-auto">
             <table className="table-sm text-left md:table-md">
               <tbody>
                 {/* row 1 */}
                 <tr>
-                  <th>{language.birthDate}</th>
-                  <td>27 {language.birthMonth} 1996</td>
+                  <th>{text.birthDate}</th>
+                  <td>27 {text.birthMonth} 1996</td>
                 </tr>
                 {/* row 2 */}
                 <tr>
-                  <th>{language.city}</th>
+                  <th>{text.city}</th>
                   <td>İzmir</td>
                 </tr>
                 {/* row 3 */}
                 <tr>
-                  <th>{language.education}</th>
-                  <td>{language.university}</td>
+                  <th>{text.education}</th>
+                  <td>{text.university}</td>
                 </tr>
                 <tr>
-                  <th>{language.preferredPosition}</th>
+                  <th>{text.preferredPosition}</th>
                   <td>Front End, UI</td>
                 </tr>
               </tbody>
