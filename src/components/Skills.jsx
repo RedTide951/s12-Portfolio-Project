@@ -1,14 +1,14 @@
-import React, { useContext } from "react";
-import { LanguageContext } from "../contexts/LanguageContext";
+import React from "react";
+import { useAppContext } from "../contexts/AppContext";
 import "./skills.css";
 
 // this is a line
 
 export const Skills = () => {
-  const { text } = useContext(LanguageContext);
+  const { language } = useAppContext();
   return (
-    <div id="skills" className="skills-container py-2 md:py-8">
-      <h2 className="heading">{text.skills}</h2>
+    <section id="skills" className="skills-container py-2 md:py-8">
+      <h2 className="heading">{language.skills}</h2>
       <div className="skills-row flex-col md:flex-row">
         <div className="bg-base-100">
           <h3 className="subheading text-primary">JavaScript</h3>
@@ -38,7 +38,7 @@ export const Skills = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

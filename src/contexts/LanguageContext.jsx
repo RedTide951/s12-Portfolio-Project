@@ -1,15 +1,22 @@
 // src/contexts/LanguageContext.js
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 import languageData from "../data/data_language.json";
 
 export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState(
+    localStorage.getItem("language") || "en"
+  );
 
   const switchLanguage = () => {
     setLanguage(language === "en" ? "tr" : "en");
   };
+
+  // lokalde saklama
+  useEffect(() => {
+    localStorage.setItem("language", language);
+  }, [language]);
 
   return (
     <LanguageContext.Provider

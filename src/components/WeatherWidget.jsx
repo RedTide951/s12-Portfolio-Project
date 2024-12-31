@@ -1,4 +1,6 @@
-import React, { useEffect, useState } from "react";
+// dont use this
+
+/* import React, { useEffect, useState } from "react";
 import weatherAPI from "../api/weatherAPI";
 
 const WeatherWidget = () => {
@@ -41,3 +43,4 @@ const WeatherWidget = () => {
 };
 
 export default WeatherWidget;
+ */

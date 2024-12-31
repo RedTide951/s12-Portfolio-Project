@@ -1,20 +1,20 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./hero.css";
-import { LanguageContext } from "../contexts/LanguageContext";
+import { useAppContext } from "../contexts/AppContext";
 
 const Hero = () => {
-  const { text } = useContext(LanguageContext);
+  const { language } = useAppContext();
 
   return (
-    <div id="hero" className="hero-container mt-8">
+    <section id="hero" className="hero-container mt-8">
       <div className="flex sm:flex-col md:flex-row md:justify-between md:gap-6 lg:flex lg:gap-12 lg:flex-1">
         <div className="left-div flex-1">
           <h1
             id="hero-header"
             className="title text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
           >
-            {text.mainHeaderOne}
-            <br className="" /> {text.mainHeaderTwo}
+            {language.mainHeaderOne}
+            <br className="" /> {language.mainHeaderTwo}
           </h1>
           <img
             className="rounded-lg shadow-lg md:hidden"
@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="md:flex md:flex-row md:gap-12 md:py-4">
             <div className="left-div md:flex-1 md:flex md:flex-col md:justify-center md:items-center">
               <p className="description text-neutral text-md py-4 md:text-base lg:text-lg ">
-                {text.heroText}
+                {language.heroText}
               </p>
             </div>
             <div className="right-div md:flex-1 md:flex md:justify-center md:items-center xl:hidden">
@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
           <div className="button-container flex gap-2 md:gap-4 lg:py-4">
             <button className="btn btn-md px-2 md:px-4 lg:px-8 lg:text-lg btn-primary buttons ">
-              {text.hireMe}
+              {language.hireMe}
             </button>
             <button className="btn btn-md px-2 md:px-4 lg:px-6 lg:text-lg btn-outline buttons secondary">
               <i className="fa-brands fa-github"></i>
@@ -56,7 +56,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

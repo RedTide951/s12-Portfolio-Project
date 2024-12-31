@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState, require } from "react";
+import React, { useEffect, useState, require } from "react";
 import "./projects.css";
-import { LanguageContext } from "../contexts/LanguageContext";
+import { useAppContext } from "../contexts/AppContext";
 // import fetchSelectedRepos from "../api/githubAPI";
 
 export const Projects = () => {
-  const { text } = useContext(LanguageContext);
+  const { language } = useAppContext();
 
   // Dont use github API for now
   /* const [projectData, setProjectData] = useState([]); */
@@ -18,12 +18,10 @@ export const Projects = () => {
  */
 
   return (
-    <div id="projects" className="wrapper">
-      <h2 className="heading">{text.projects}</h2>
+    <section id="projects" className="wrapper">
+      <h2 className="heading">{language.projects}</h2>
       <div className="projects-container py-4 pb-8 flex gap-6 flex-col sm:flex-row sm:overflow-x-auto sm:flex-nowrap sm:-mx-8 sm:px-6 sm:gap-6 sm:mb-8 lg:grid lg:grid-cols-3 lg:gap-12  lx:pb-12 ">
-        {text.projectsData.map((project, index) => {
-          console.log("bura", project.imageUrl);
-          console.log("imgname", project.imageName);
+        {language.projectsData.map((project, index) => {
           return (
             <div
               className="card card-compact card-effects bg-base-100 shadow-lg max-w-fit sm:max-w-72 sm:flex-shrink-0 lg:max-w-fit"
@@ -67,7 +65,7 @@ export const Projects = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

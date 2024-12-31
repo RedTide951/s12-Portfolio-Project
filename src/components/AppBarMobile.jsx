@@ -1,12 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import ThemeToggleButton from "./ThemeToggleButton";
-import { LanguageContext } from "../contexts/LanguageContext";
+import { useAppContext } from "../contexts/AppContext";
 
 const AppBarMobile = () => {
-  const { text, switchLanguage } = useContext(LanguageContext);
+  const { language, switchLanguage } = useAppContext();
 
   return (
-    <div className="md:hidden">
+    <nav className="md:hidden">
       <div className="navbar sm:px-8 bg-base-100 shadow-xl">
         <div className="left-div flex-1">
           <a className="btn btn-ghost text-xl px-2 ">
@@ -17,7 +17,7 @@ const AppBarMobile = () => {
           <div className="ic-btns flex justify-center">
             <div className="language">
               <button className="btn btn-ghost btn-sm" onClick={switchLanguage}>
-                <p className="text-md">{text.abv.toUpperCase()}</p>
+                <p className="text-md">{language.abv.toUpperCase()}</p>
               </button>
             </div>
             <div>|</div>
@@ -27,7 +27,7 @@ const AppBarMobile = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -1,20 +1,22 @@
 import React, { useContext } from "react";
-import { LanguageContext } from "../contexts/LanguageContext";
+import { useAppContext } from "../contexts/AppContext";
 import "./footer.css";
 
 export const Footer = () => {
-  const { text } = useContext(LanguageContext);
+  const { language } = useAppContext();
   return (
-    <div className="footer-container bg-base-200 md:mt-2 p-4 sm:p-8 lg:p-16 xl:px-24 2xl:px-32">
+    <footer className="footer-container bg-base-200 md:mt-2 p-4 sm:p-8 lg:p-16 xl:px-24 2xl:px-32">
       <h2 className="footer-heading text-2xl md:text-4xl">
-        {text.footerHeaderLine1}
+        {language.footerHeaderLine1}
         <br />
-        {text.footerHeaderLine2}
+        {language.footerHeaderLine2}
       </h2>
       <div className="contacts-container flex-col hidden md:flex md:flex-row">
         <a className="email hover:text-primary">oguzhanraifbutuner@gmail.com</a>
         <div className="links-container align-center flex flex-row gap-4">
-          <a className="linkcustom hover:text-primary">{text.personalBlog}</a>
+          <a className="linkcustom hover:text-primary">
+            {language.personalBlog}
+          </a>
           <a className="linkcustom hover:text-primary">Github</a>
           <a className="linkcustom hover:text-primary">Linkedin</a>
         </div>
@@ -22,12 +24,14 @@ export const Footer = () => {
       <div className="mobile-div flex-col md:flex-row md:hidden">
         <a className="email hover:text-primary">oguzhanraifbutuner@gmail.com</a>
         <div className="links-container align-center flex flex-row gap-4 py-4">
-          <a className="linkcustom hover:text-primary">{text.personalBlog}</a>
+          <a className="linkcustom hover:text-primary">
+            {language.personalBlog}
+          </a>
           <a className="linkcustom hover:text-primary">Github</a>
           <a className="linkcustom hover:text-primary">Linkedin</a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

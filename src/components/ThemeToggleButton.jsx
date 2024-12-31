@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
-import { useTheme } from "../contexts/ThemeContext";
+import React from "react";
+import { useAppContext } from "../contexts/AppContext";
 
 const ThemeToggleButton = () => {
-  const { theme, toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useAppContext();
 
   return (
     <>

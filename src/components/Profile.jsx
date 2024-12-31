@@ -1,37 +1,37 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./profile.css";
-import { LanguageContext } from "../contexts/LanguageContext";
+import { useAppContext } from "../contexts/AppContext";
 
 export const Profile = () => {
-  const { text } = useContext(LanguageContext);
+  const { language } = useAppContext();
   return (
-    <div className="wrapper py-2 md:py-8">
-      <h2 className="heading">{text.profile}</h2>
+    <section className="wrapper py-2 md:py-8">
+      <h2 className="heading">{language.profile}</h2>
       <div className="profile-container flex flex-col md:flex-row md:gap-4">
         <div className="stats-container flex-1">
           <h3 className="subheading text-primary hidden md:block">
-            {text.profile}
+            {language.profile}
           </h3>
           <div className="overflow-x-auto">
             <table className="table-sm text-left md:table-md">
               <tbody>
                 {/* row 1 */}
                 <tr>
-                  <th>{text.birthDate}</th>
-                  <td>27 {text.birthMonth} 1996</td>
+                  <th>{language.birthDate}</th>
+                  <td>27 {language.birthMonth} 1996</td>
                 </tr>
                 {/* row 2 */}
                 <tr>
-                  <th>{text.city}</th>
+                  <th>{language.city}</th>
                   <td>İzmir</td>
                 </tr>
                 {/* row 3 */}
                 <tr>
-                  <th>{text.education}</th>
-                  <td>{text.university}</td>
+                  <th>{language.education}</th>
+                  <td>{language.university}</td>
                 </tr>
                 <tr>
-                  <th>{text.preferredPosition}</th>
+                  <th>{language.preferredPosition}</th>
                   <td>Front End, UI</td>
                 </tr>
               </tbody>
@@ -51,7 +51,7 @@ export const Profile = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
