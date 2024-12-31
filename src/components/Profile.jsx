@@ -7,8 +7,8 @@ export const Profile = () => {
   return (
     <div className="wrapper py-2 md:py-8">
       <h2 className="heading">{text.profile}</h2>
-      <div className="profile-container flex-col  md:flex-row">
-        <div className="stats-container">
+      <div className="profile-container flex flex-col md:flex-row md:gap-4">
+        <div className="stats-container flex-1">
           <h3 className="subheading text-primary hidden md:block">
             {text.profile}
           </h3>
@@ -38,7 +38,7 @@ export const Profile = () => {
             </table>
           </div>
         </div>
-        <div className="about-me-container">
+        <div className="about-me-container flex-1">
           <h3 className="subheading text-primary">{text.aboutMe}</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, animi

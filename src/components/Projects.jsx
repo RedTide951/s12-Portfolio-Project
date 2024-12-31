@@ -18,10 +18,10 @@ export const Projects = () => {
   return (
     <div className="wrapper">
       <h2 className="heading">{text.projects}</h2>
-      <div className="projects-container flex gap-8 py-4 flex-col md:flex-row">
+      <div className="projects-container py-4 flex gap-6 flex-col md:flex-row md:overflow-x-auto md:flex-nowrap md:-mx-8 md:px-6 md:gap-6 lg:grid lg:grid-cols-3 lg:gap-12 lg:pb-12 lx:pb-12 ">
         {projectData.map((project, index) => (
           <div
-            className="card card-compact bg-base-100 max-w-fit shadow-xl"
+            className="card card-compact bg-base-100 shadow-lg max-w-fit md:max-w-72 md:flex-shrink-0 lg:max-w-fit"
             key={index}
           >
             <figure>

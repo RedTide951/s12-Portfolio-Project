@@ -6,8 +6,8 @@ import WeatherWidget from "./WeatherWidget";
 export const Footer = () => {
   const { text } = useContext(LanguageContext);
   return (
-    <div className="footer-container bg-base-200">
-      <h2 className="footer-heading text-2xl md:text-6xl">
+    <div className="footer-container bg-base-200 md:mt-2 lg:px-16 lg:py-8 xl:px-24 xl:py-12">
+      <h2 className="footer-heading text-2xl md:text-4xl">
         {text.footerHeaderLine1}
         <br />
         {text.footerHeaderLine2}

@@ -5,6 +5,8 @@ Api den data geliyor mapleniyor ama isimler ascii, badge datası gelmiyor? Ayar 
 Tablet te kaldık, skills den devam
 
 
+Qutote of the day eklenecek
+
 
 ## Debug
 sayfa yenilenince ingilziceye dönüyor

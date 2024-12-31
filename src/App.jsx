@@ -15,7 +15,7 @@ function App() {
       <div className="">
         <AppBarMobile />
       </div>
-      <main className="App sm:mx-4 md:mx-8 lg:mx-16 xl:mx-24">
+      <main className="App mx-4 md:mx-8 lg:mx-16 xl:mx-24">
         <div className="hidden md:block">
           <AppBar />
         </div>
