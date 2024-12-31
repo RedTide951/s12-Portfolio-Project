@@ -7,24 +7,21 @@ const AppBarMobile = () => {
 
   return (
     <div className="md:hidden">
-      <div className="navbar bg-base-100 shadow-xl">
+      <div className="navbar sm:px-8 bg-base-100 shadow-xl">
         <div className="left-div flex-1">
-          <a className="btn btn-ghost text-xl px-2">
+          <a className="btn btn-ghost text-xl px-2 ">
             <span className="name text-primary">Oğuzhan Bütüner</span>
           </a>
         </div>
         <div className="right-div flex-none">
           <div className="ic-btns flex justify-center">
             <div className="language">
-              <button
-                className="btn btn-ghost btn-sm "
-                onClick={switchLanguage}
-              >
+              <button className="btn btn-ghost btn-sm" onClick={switchLanguage}>
                 <p className="text-md">{text.abv.toUpperCase()}</p>
               </button>
             </div>
             <div>|</div>
-            <div className="darkmode md:block pl-2">
+            <div className="darkmode md:block px-2">
               <ThemeToggleButton />
             </div>
           </div>

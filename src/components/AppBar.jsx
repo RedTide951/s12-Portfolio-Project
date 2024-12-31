@@ -21,10 +21,12 @@ const AppBar = () => {
         <div className="language hidden md:block">
           <button className="btn btn-ghost btn-xs " onClick={switchLanguage}>
             <p className="lg:text-sm md:text-sm">
-              <span className="text-primary">
+              <span className={text.abv !== "tr" ? "text-primary" : ""}>
                 {text.languageSwitchLabel1.toUpperCase()}
               </span>
-              {text.languageSwitchLabel2.toUpperCase()}
+              <span className={text.abv === "tr" ? "text-primary" : ""}>
+                {text.languageSwitchLabel2.toUpperCase()}
+              </span>
             </p>
           </button>
         </div>
