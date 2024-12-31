@@ -6,3 +6,9 @@
   --primary-color: #3730a2;
   --secondary-color: #7c808d;
 }
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10; /* Ensure it stays above other elements */
+}

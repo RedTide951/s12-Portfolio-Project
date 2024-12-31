@@ -6,16 +6,13 @@ const Hero = () => {
   const { text } = useContext(LanguageContext);
 
   return (
-    <div className="hero-container">
-      <div className="name-container flex items-center">
-        <span className="line bg-primary hidden md:block"></span>
-        <span className="text-primary font-semibold hidden md:block md:text-xl">
-          Oğuzhan Bütüner
-        </span>
-      </div>
+    <div id="hero" className="hero-container mt-8">
       <div className="flex sm:flex-col md:flex-row md:justify-between md:gap-6 lg:flex lg:gap-12 lg:flex-1">
         <div className="left-div flex-1">
-          <h1 className="title text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+          <h1
+            id="hero-header"
+            className="title text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
+          >
             {text.mainHeaderOne}
             <br className="" /> {text.mainHeaderTwo}
           </h1>
