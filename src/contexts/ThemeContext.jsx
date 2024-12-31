@@ -1,3 +1,5 @@
+// this is not used anymore but I keep it for reference
+
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 const ThemeContext = createContext();

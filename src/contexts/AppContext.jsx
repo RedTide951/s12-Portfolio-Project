@@ -9,7 +9,10 @@ export const AppProvider = ({ children }) => {
   const [theme, setTheme] = useLocalStorage("theme", "light");
 
   const switchLanguage = () => {
-    setLanguage((prevLanguage) => (prevLanguage === "en" ? "tr" : "en"));
+    setLanguage((prevLanguage) => {
+      const newLanguage = prevLanguage === "en" ? "tr" : "en";
+      return newLanguage;
+    });
   };
 
   const toggleTheme = () => {

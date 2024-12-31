@@ -1,4 +1,5 @@
-// src/contexts/LanguageContext.js
+// this is not used anymore but I keep it for reference
+
 import React, { createContext, useState, useEffect } from "react";
 import languageData from "../data/data_language.json";
 
