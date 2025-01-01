@@ -3,8 +3,7 @@ import axios from "axios";
 const username = "RedTide951";
 const repoNames = ["s8-challenge-pizza", "witflix", "RT-Snake"];
 
-// API limit hits while developement. Though it was a good idea to fetch the data from the API, but I decided to hardcode the data for now.
-// not using the API
+// API limit hits while developement. I decided to hardcode the data for now.
 
 let repos = {};
 
