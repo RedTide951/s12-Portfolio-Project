@@ -9,6 +9,7 @@ export const useLocalStorage = (key, initialValue) => {
         return JSON.parse(item);
       } else {
         localStorage.setItem(key, JSON.stringify(initialValue));
+        console.log("Value set in localStorage initial", initialValue);
         return initialValue;
       }
     } catch (error) {
@@ -28,6 +29,7 @@ export const useLocalStorage = (key, initialValue) => {
     }
     localStorage.setItem(key, JSON.stringify(newValue));
     setStoredValue(newValue);
+    console.log("Value set in localStorage", newValue);
   };
 
   return [storedValue, setValue];

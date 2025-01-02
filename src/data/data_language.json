@@ -34,7 +34,10 @@
       "messagePlaceholder": "Your message",
       "description": "Please fill out the form below, and I will get back to you as soon as possible.",
       "send": "Send",
-      "close": "Close"
+      "sending": "Sending...",
+      "close": "Close",
+      "successMessage": "Message sent successfully",
+      "errorMessage": "An error occurred while sending the message. Please try again later."
     },
     "projectsData": [
       {
@@ -92,7 +95,7 @@
     "darkMode": "Karanlık Mod",
     "lightMode": "Aydınlık Mod",
     "abv": "tr",
-    "mockupWebsiteUrl": "https://websayfan.com",
+    "mockupWebsiteUrl": "https://yeniproje.com",
     "contactFormData": {
       "name": "İsim",
       "namePlaceholder": "İsminiz",
@@ -100,9 +103,12 @@
       "contactPlaceholder": "E-posta veya Telefon Numaranız",
       "message": "Mesaj",
       "messagePlaceholder": "Lütfen mesajınızı yazın",
-      "description": "",
+      "description": "Lütfen aşağıdaki formu doldurun, size en kısa sürede geri dönüş yapacağım.",
       "send": "Gönder",
-      "close": "Kapat"
+      "sending": "Gönderiliyor...",
+      "close": "Kapat",
+      "successMessage": "Mesajınız başarıyla gönderildi",
+      "errorMessage": "Mesaj gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
     },
     "projectsData": [
       {
