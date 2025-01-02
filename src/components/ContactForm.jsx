@@ -102,6 +102,15 @@ const ContactForm = () => {
 
                 {/* Submit Button */}
                 <div className="modal-action">
+                  <button
+                    className="btn "
+                    type="button"
+                    onClick={() =>
+                      document.getElementById("hire_me_modal").close()
+                    }
+                  >
+                    {text.contactFormData.close}
+                  </button>
                   {error && <p className="text-red-500 text-sm">{error}</p>}
                   <button
                     type="submit"
@@ -111,15 +120,6 @@ const ContactForm = () => {
                     {loading
                       ? text.contactFormData.sending
                       : text.contactFormData.send}
-                  </button>
-                  <button
-                    className="btn"
-                    type="button"
-                    onClick={() =>
-                      document.getElementById("hire_me_modal").close()
-                    }
-                  >
-                    {text.contactFormData.close}
                   </button>
                 </div>
               </form>
@@ -134,7 +134,7 @@ const ContactForm = () => {
                 <i className="fa-solid fa-check"></i>
               </h2>
               <button
-                className="btn px-8"
+                className="btn px-8 btn-success"
                 onClick={() => {
                   document.getElementById("hire_me_modal").close();
                   setSuccess(false);

@@ -22,7 +22,7 @@ export const NavBar = () => {
       id="navbar"
       className="nav-bar hidden flex-row justify-between content-center md:flex md:py-2 px-4 sm:px-8 md:px-8 lg:px-16 xl:px-24 2xl:px-32 bg-base-100 shadow-xl"
     >
-      <div className="left-divison font-semibold flex gap-6">
+      <div className="left-divison font-semibold flex gap-4">
         <div>
           <span className="text-primary md:text-xl xl:text-3xl ">
             Oğuzhan Bütüner
@@ -36,7 +36,10 @@ export const NavBar = () => {
         </div>
         <div className="right-divison flex flex-row justify-end items-center gap-2">
           <div className="language hidden lg:block">
-            <button className="btn btn-ghost btn-xs " onClick={switchLanguage}>
+            <button
+              className="btn btn-ghost btn-xs p-1 "
+              onClick={switchLanguage}
+            >
               <p>
                 <span className={text.abv !== "tr" ? "text-primary" : ""}>
                   {text.languageSwitchLabel1.toUpperCase()}
