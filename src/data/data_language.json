@@ -24,6 +24,18 @@
     "darkMode": "Dark Mode",
     "lightMode": "Light Mode",
     "abv": "en",
+    "mockupWebsiteUrl": "https://yourstartup.com",
+    "contactFormData": {
+      "name": "Name",
+      "namePlaceholder": "Your Name",
+      "contact": "Contact",
+      "contactPlaceholder": "Your email or Phone",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "description": "Please fill out the form below, and I will get back to you as soon as possible.",
+      "send": "Send",
+      "close": "Close"
+    },
     "projectsData": [
       {
         "name": "Technological Meals",
@@ -59,9 +71,9 @@
     "mainHeaderOne": "Yaratıcı düşünen",
     "mainHeaderTwo": "Minimalizm tutkunu",
     "home": "Ana Sayfa",
-    "skills": "Beceriler",
+    "skills": "Yetkinlikler",
     "projects": "Projeler",
-    "hireMe": "Beni İşe Al",
+    "hireMe": "Benimle Çalışın",
     "languageSwitchLabel1": "Switch to ",
     "languageSwitchLabel2": "English",
     "title": "Ön Uç Geliştirici",
@@ -80,6 +92,18 @@
     "darkMode": "Karanlık Mod",
     "lightMode": "Aydınlık Mod",
     "abv": "tr",
+    "mockupWebsiteUrl": "https://websayfan.com",
+    "contactFormData": {
+      "name": "İsim",
+      "namePlaceholder": "İsminiz",
+      "contact": "İletişim",
+      "contactPlaceholder": "E-posta veya Telefon Numaranız",
+      "message": "Mesaj",
+      "messagePlaceholder": "Lütfen mesajınızı yazın",
+      "description": "",
+      "send": "Gönder",
+      "close": "Kapat"
+    },
     "projectsData": [
       {
         "name": "Technological Meals",

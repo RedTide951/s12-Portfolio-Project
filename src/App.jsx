@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import AppBarMobile from "./components/AppBarMobile";
+import ContactForm from "./components/ContactForm";
 
 import "./App.css";
 
@@ -27,6 +28,7 @@ function App() {
         <Projects />
       </main>
       <Footer />
+      <ContactForm />
     </>
   );
 }

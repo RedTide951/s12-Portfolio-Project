@@ -13,6 +13,10 @@ export const NavBar = () => {
     }
   };
 
+  const openHireMeModal = () => {
+    document.getElementById("hire_me_modal").showModal();
+  };
+
   return (
     <nav
       id="navbar"
@@ -74,7 +78,10 @@ export const NavBar = () => {
         >
           {text.projects}
         </button>
-        <button className="btn btn-primary lg:px-6 lg:text-lg shadow-none">
+        <button
+          className="btn btn-primary lg:px-6 lg:text-lg shadow-none"
+          onClick={openHireMeModal}
+        >
           {text.hireMe}
         </button>
       </div>

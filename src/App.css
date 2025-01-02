@@ -12,3 +12,7 @@
   top: 0;
   z-index: 10; /* Ensure it stays above other elements */
 }
+
+html {
+  scroll-padding-top: 70px; /* Adjust based on the height of your app bar */
+}

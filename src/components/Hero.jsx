@@ -5,6 +5,10 @@ import { useAppContext } from "../contexts/AppContext";
 const Hero = () => {
   const { text } = useAppContext();
 
+  const openHireMeModal = () => {
+    document.getElementById("hire_me_modal").showModal();
+  };
+
   return (
     <section id="hero" className="hero-container mt-8">
       <div className="flex sm:flex-col md:flex-row md:justify-between md:gap-6 lg:flex lg:gap-12 lg:flex-1">
@@ -36,16 +40,27 @@ const Hero = () => {
             </div>
           </div>
           <div className="button-container flex gap-2 md:gap-4 lg:py-4">
-            <button className="btn btn-md px-2 md:px-4 lg:px-8 lg:text-lg btn-primary buttons ">
+            <button
+              className="btn btn-md px-2 md:px-4 lg:px-8 lg:text-lg btn-primary buttons "
+              onClick={openHireMeModal}
+            >
               {text.hireMe}
             </button>
-            <button className="btn btn-md px-2 md:px-4 lg:px-6 lg:text-lg btn-outline buttons secondary">
+            <a
+              className="btn btn-md px-2 md:px-4 lg:px-6 lg:text-lg btn-outline buttons secondary"
+              href="https://github.com/RedTide951"
+              target="_blank"
+            >
               <i className="fa-brands fa-github"></i>
               Github
-            </button>
-            <button className="btn btn-md px-2 md:px-4 lg:px-6 lg:text-lg btn-outline buttons secondary">
+            </a>
+            <a
+              className="btn btn-md px-2 md:px-4 lg:px-6 lg:text-lg btn-outline buttons secondary"
+              href="https://www.linkedin.com/in/oguzhanbutuner/"
+              target="_blank"
+            >
               <i className="fa-brands fa-linkedin"></i>LinkedIn
-            </button>
+            </a>
           </div>
         </div>
         <div className="right-div xl:flex-1 xl:flex xl:justify-center xl:items-center">
