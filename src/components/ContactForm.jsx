@@ -31,8 +31,10 @@ const ContactForm = () => {
       );
 
       if (response.ok) {
+        const returnedData = await response.json();
         setSuccess(true);
         e.target.reset();
+        console.log("API Response", returnedData);
       } else {
         throw new Error("Failed to send message. Please try again.");
       }
