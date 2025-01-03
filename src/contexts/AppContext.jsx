@@ -8,6 +8,10 @@ export const AppProvider = ({ children }) => {
   const [language, setLanguage] = useLocalStorage("language", "en");
   const [theme, setTheme] = useLocalStorage("theme", "light");
 
+  React.useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
+
   const switchLanguage = () => {
     setLanguage((prevLanguage) => {
       const newLanguage = prevLanguage === "en" ? "tr" : "en";

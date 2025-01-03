@@ -39,6 +39,7 @@ export const NavBar = () => {
             <button
               className="btn btn-ghost btn-xs p-1 "
               onClick={switchLanguage}
+              data-cy="toggle-language"
             >
               <p>
                 <span className={text.abv !== "tr" ? "text-primary" : ""}>
@@ -54,7 +55,11 @@ export const NavBar = () => {
       </div>
       <div className="right-divison flex flex-row justify-end items-center gap-2">
         <div className="language compact block lg:hidden">
-          <button className="btn btn-contained " onClick={switchLanguage}>
+          <button
+            className="btn btn-contained "
+            onClick={switchLanguage}
+            data-cy="toggle-language"
+          >
             <span className="text-primary">
               {text.abv !== "en" ? "EN" : "TR"}
             </span>
