@@ -1,5 +1,4 @@
 import React from "react";
-import "./navbar.css";
 import { useAppContext } from "../contexts/AppContext";
 import ThemeToggleButton from "./ThemeToggleButton";
 
