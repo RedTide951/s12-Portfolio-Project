@@ -38,8 +38,8 @@ export const NavBar = () => {
           <div className="language hidden lg:block">
             <button
               className="btn btn-ghost btn-xs p-1 "
+              data-cy="toggle-language-button"
               onClick={switchLanguage}
-              data-cy="toggle-language"
             >
               <p>
                 <span className={text.abv !== "tr" ? "text-primary" : ""}>
@@ -65,7 +65,7 @@ export const NavBar = () => {
             </span>
           </button>
         </div>
-        <div className="darkmode flex px-2">
+        <div className="darkmode flex px-2" data-cy="toggle-theme-button">
           <ThemeToggleButton />
         </div>
         <button
