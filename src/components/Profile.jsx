@@ -9,9 +9,6 @@ export const Profile = () => {
       <h2 className="heading">{text.profile}</h2>
       <div className="profile-container flex flex-col md:flex-row md:gap-4">
         <div className="stats-container flex-1">
-          <h3 className="subheading text-primary hidden md:block">
-            {text.profile}
-          </h3>
           <div className="overflow-x-auto">
             <table className="table-sm text-left md:table-md">
               <tbody>
@@ -28,7 +25,11 @@ export const Profile = () => {
                 {/* row 3 */}
                 <tr>
                   <th>{text.education}</th>
-                  <td>{text.university}</td>
+                  <td>
+                    {text.university2}
+                    <br />
+                    {text.university1}
+                  </td>
                 </tr>
                 <tr>
                   <th>{text.preferredPosition}</th>
@@ -40,15 +41,7 @@ export const Profile = () => {
         </div>
         <div className="about-me-container flex-1">
           <h3 className="subheading text-primary">{text.aboutMe}</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, animi
-            at. Explicabo labore tenetur quam quo quia ratione culpa laborum
-            sunt doloribus repellat laudantium quisquam non vero, accusamus
-            nulla perferendis? Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Numquam, voluptate. Molestias voluptate magni
-            tempore magnam nobis atque fugiat, consequatur rem reprehenderit
-            libero, incidunt accusamus a? Ad velit labore nam quaerat.
-          </p>
+          <p>{text.aboutMeDescription}</p>
         </div>
       </div>
     </section>
