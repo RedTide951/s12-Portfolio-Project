@@ -4,6 +4,11 @@
     "mainHeaderTwo": "Minimalism lover",
     "home": "Home",
     "skills": "Skills",
+    "skillDescriptions": {
+      "js": "JavaScript is my primary and favorite programming language. I use it for the development of dynamic web applications. I have experience with modern ES6+ syntax.",
+      "react": "React is a powerful JavaScript library for building fast, dynamic, and interactive user interfaces. I love it because of its component-based architecture, which makes code reusable and easier to maintain. I have experience with React hooks, context API, and Redux.",
+      "java": "Java is my preferred go-to when it comes to low to intermediate level languages. It is less prone to errors due to its strictly class based structure. I use it for building reliable backends when needed."
+    },
     "projects": "Projects",
     "hireMe": "Hire Me",
     "languageSwitchLabel1": "Türkçe",
@@ -20,7 +25,11 @@
     "footerHeaderLine1": "Let's work together on",
     "footerHeaderLine2": "your next product.",
     "personalBlog": "Personal Blog",
-    "heroText": "Hello, I'm Oğuzhan. I am a software developer with strong technical knowledge, focused on creating user-friendly and efficient solutions. I work with React, one of the most widely used libraries for developing web applications globally. Committed to continuous learning, I am progressing toward becoming a skilled and successful professional in full-stack development. In my portfolio, you can explore my projects, skills, and journey in software development. Let's create amazing projects together!",
+    "heroText": {
+      "line1": "Hello, I am Oğuzhan 👋",
+      "line2": "I am a software developer with strong technical knowledge and a passion for programming. I focus on creating user-friendly and minimalistic web apps for the best ease of use. I enjoy and prefer working with React in most of my projects, along with other React-based libraries. I am committed to continuously learning and implementing the newest and best solutions in my projects.",
+      "line3": "In my portfolio, you can explore my projects, skills, and my journey in software development so far. Let's create amazing projects together!"
+    },
     "darkMode": "Dark Mode",
     "lightMode": "Light Mode",
     "abv": "en",
@@ -75,6 +84,11 @@
     "mainHeaderTwo": "Gerçekleşsin",
     "home": "Ana Sayfa",
     "skills": "Yetkinlikler",
+    "skillDescriptions": {
+      "js": "JavaScript benim birincil programlama dilim. Dinamik web uygulamaları geliştirmek için kullanıyorum. Modern ES6+ sözdizimi konusunda deneyimliyim.",
+      "react": "React, hızlı, dinamik ve etkileşimli kullanıcı arayüzleri oluşturmak için tercih ettiğim JavaScript kütüphanesidir. Bileşen tabanlı yapısı sayesinde kodun yeniden kullanılabilir olmasını sağlar. React hooks, context API ve Redux konularında deneyimim var.",
+      "java": "Java, düşük ve orta seviye dillerde tercih ettiğim bir dil. Sınıf tabanlı yapısı sayesinde hatalara daha az eğilimlidir. Gerektiğinde güvenilir backend sistemleri oluşturmak için kullanıyorum."
+    },
     "projects": "Projeler",
     "hireMe": "İletişim",
     "languageSwitchLabel1": "Switch to ",
@@ -91,7 +105,11 @@
     "footerHeaderLine1": "Bir sonraki ürününüzde",
     "footerHeaderLine2": "birlikte çalışalım.",
     "personalBlog": "Kişisel Blog",
-    "heroText": "Merhaba, ben Oğuzhan. Kullanıcı dostu ve etkili çözümler geliştirmeye odaklanmış, teknik uzmanlığa sahip bir yazılım geliştiricisiyim. Web uygulamaları geliştirmek için dünya genelinde yaygın olarak kullanılan React kütüphanesi ile çalışıyorum. Sürekli öğrenmeyi ilke edinerek, full-stack geliştirme alanında yetkin ve başarılı bir profesyonel olma yolunda ilerliyorum. Portföyümde projelerimi, yeteneklerimi ve yazılım geliştirme yolculuğumu keşfedebilirsiniz. Gelin birlikte harika projeler yaratalım!",
+    "heroText": {
+      "line1": "Merhaba, ben Oğuzhan 👋",
+      "line2": "Güçlü teknik bilgisi ve programlama tutkusu olan bir yazılım geliştiricisiyim. Kullanıcı dostu ve minimalist web uygulamaları oluşturmaya odaklanıyorum. Projelerimde React ve React tabanlı kütüphanelerle çalışmayı seviyor ve güncel teknolojileri yakından takip ediyorum.",
+      "line3": "Portföyümde projelerimi, becerilerimi ve yazılım geliştirme yolculuğumu keşfedebilirsiniz. Hadi, birlikte harika projeler yaratalım!"
+    },
     "darkMode": "Karanlık Mod",
     "lightMode": "Aydınlık Mod",
     "abv": "tr",

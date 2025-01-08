@@ -15,32 +15,17 @@ export const Skills = () => {
         </div>
         <div className="bg-base-200 flex justify-center px-10 py-16">
           <div className="skills-row flex-col md:flex-row">
-            <div className="">
+            <div className="flex-1">
               <h3 className="subheading text-primary">JavaScript</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus magnam officiis commodi, ipsa, sequi rem consectetur
-                veritatis a expedita autem doloremque? Incidunt delectus quos
-                eligendi debitis eaque aut. Ad, repellat.
-              </p>
+              <p>{text.skillDescriptions.js}</p>
             </div>
-            <div className="">
+            <div className="flex-1">
               <h3 className="subheading text-primary">React</h3>
-              <p>
-                React is a powerful JavaScript library for building user
-                interfaces, particularly single-page applications. I love it
-                because of its component-based architecture, which makes code
-                reusable, modular, and easier to maintain.
-              </p>
+              <p>{text.skillDescriptions.react}</p>
             </div>
-            <div className="">
-              <h3 className="subheading text-primary">Node.JS</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus magnam officiis commodi, ipsa, sequi rem consectetur
-                veritatis a expedita autem doloremque? Incidunt delectus quos
-                eligendi debitis eaque aut. Ad, repellat.
-              </p>
+            <div className="flex-1">
+              <h3 className="subheading text-primary">Java</h3>
+              <p>{text.skillDescriptions.java}</p>
             </div>
           </div>
         </div>

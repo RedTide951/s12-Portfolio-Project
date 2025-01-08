@@ -28,7 +28,11 @@ const Hero = () => {
           <div className="md:flex md:flex-row md:gap-12 md:py-4">
             <div className="left-div md:flex-1 md:flex md:flex-col md:justify-center md:items-center">
               <p className="description text-neutral text-md py-4 md:text-base lg:text-lg ">
-                {text.heroText}
+                {text.heroText.line1}
+                <div className="py-1" />
+                {text.heroText.line2}
+                <div className="py-1" />
+                {text.heroText.line3}
               </p>
             </div>
             <div className="right-div md:flex-1 md:flex md:justify-center md:items-center xl:hidden">
