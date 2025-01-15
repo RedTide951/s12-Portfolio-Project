@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <img
             className="rounded-lg shadow-lg md:hidden"
-            src="https://media.istockphoto.com/id/1017296544/tr/foto%C4%9Fraf/test-yaz%C4%B1l%C4%B1m%C4%B1.jpg?s=1024x1024&w=is&k=20&c=ON-Ok5DbUXXI9fU7jsVbyf57ymg3newXsiexNIZ0cyY="
+            src="/pics/heropic.jpg"
             alt=""
           />
           <div className="md:flex md:flex-row md:gap-12 md:py-4">
@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="right-div md:flex-1 md:flex md:justify-center md:items-center xl:hidden">
               <img
                 className="rounded-lg shadow-2xl hidden md:flex"
-                src="https://media.istockphoto.com/id/1017296544/tr/foto%C4%9Fraf/test-yaz%C4%B1l%C4%B1m%C4%B1.jpg?s=1024x1024&w=is&k=20&c=ON-Ok5DbUXXI9fU7jsVbyf57ymg3newXsiexNIZ0cyY="
+                src="/pics/heropic.jpg"
                 alt=""
               />
             </div>
@@ -70,7 +70,7 @@ const Hero = () => {
         <div className="right-div xl:flex-1 xl:flex xl:justify-center xl:items-center">
           <img
             className="rounded-lg shadow-2xl hidden xl:flex"
-            src="https://media.istockphoto.com/id/1017296544/tr/foto%C4%9Fraf/test-yaz%C4%B1l%C4%B1m%C4%B1.jpg?s=1024x1024&w=is&k=20&c=ON-Ok5DbUXXI9fU7jsVbyf57ymg3newXsiexNIZ0cyY="
+            src="/pics/heropic.jpg"
             alt=""
           />
         </div>
